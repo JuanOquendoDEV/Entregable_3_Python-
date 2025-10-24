@@ -79,4 +79,19 @@ El módulo generar_reporte.py se encarga de producir un reporte HTML a partir de
 
 - Un diseño con estilo básico para mejorar la legibilidad y presentación.
 
+ 
+ ```
+<script>
+         
+    document.addEventListener("DOMContentLoaded", function () {
+      const filas = document.querySelectorAll("table tr");
+      filas.forEach(fila => {
+        fila.addEventListener("mouseenter", () => fila.style.backgroundColor = "#dfe6e9");
+        fila.addEventListener("mouseleave", () => fila.style.backgroundColor = "");
+      });
+    });
+  
+
+        </script>
+
 
