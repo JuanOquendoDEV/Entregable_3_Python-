@@ -15,7 +15,7 @@ def generar_reporte_html(ventas_por_categoria, nombre_archivo="reporte.html"):
     <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>Reporte de Ventas por Categoría</title>
+        <title>Reporte de Ventas por Categoria</title>
         <style>
             body {{
                 font-family: Arial, sans-serif;
@@ -48,7 +48,7 @@ def generar_reporte_html(ventas_por_categoria, nombre_archivo="reporte.html"):
         </style>
     </head>
     <body>
-        <h1> Reporte de Ventas Totales por Categoría</h1>
+        <h1> Reporte de Ventas Totales por Categoria</h1>
         {tabla_html}
 
         <script>
